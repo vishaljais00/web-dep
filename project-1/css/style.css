@@ -1,0 +1,94 @@
+.left{ 
+        /* border: 2px solid rgb(11, 228, 47); */
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        left: 34px;
+        margin: 10px auto;
+       
+}
+.left img{
+        width: 100px;
+        height: 60px;
+    
+}
+.left div{
+        text-align: center;
+        color:white;
+        background-color: none;
+        font-size: 20px;
+}
+.mid{
+       /* border: 2px solid rgb(11, 228, 47); */
+        display: block;
+        width: 60%;
+        margin: 25px 400px;
+}
+.right{
+        /* border: 2px solid rgb(11, 228, 47); */
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        right: 34px;
+        margin: 25px auto;
+}
+.navbar{
+        display: inline-block;
+}
+.navbar li{
+        display: inline-block;
+             
+}
+.navbar li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 34px 24px;
+        font-size: 25px;
+                
+}
+.navbar li a:hover, .active {
+        text-decoration: underline;
+        color: rgb(196, 188, 188);
+}
+.btn{
+         background-color: black;
+         color: aliceblue;
+         padding: 10px 12px;
+         border-radius: 10px;
+         font-size: 17px;
+         font-family: 'Lobster', cursive;
+}
+.btn:hover{
+
+          background-color: rgb(248, 50, 50);
+}
+.container{
+          border: 2px solid rgb(255, 255, 255);
+          margin: 75px 33px;
+          padding: 49px 21px;
+          width: 30%;
+          border-radius: 20px;
+}
+.form-group input{
+          text-align: center;
+          display: block;
+          width: 75%;
+          padding: 8px 58px;
+          margin: 7px auto;
+          font-size: 24px;
+          border-radius: 12px;
+}
+container h1{
+          text-align: center;
+          color: #00ffc4db;
+}
+.container .btn1{
+          background-color: black;
+          color: aliceblue;
+          border-radius: 10px;
+          font-size: 17px;
+          font-family: 'Lobster', cursive;
+          width: 100%;
+          margin: 18px 5px;
+          padding: 8px 4px;
+}; 

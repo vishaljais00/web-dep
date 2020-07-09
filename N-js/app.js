@@ -9,27 +9,26 @@ app.get('/', function (req, res) {
 });
 app.get('/alien', function (req, res) {
 
-         const id = req.query.id
-        res.send('Welcome back aliens' +  id)
+         const Id = req.query.id
+        res.send('Welcome back aliens ' +  Id)
 });
-/* app.get('/alien/:id', function (req, res) {
+ app.get('/alien/:id', function (req, res) {
 
-        const name = req.query.id
         const Id = req.params.id
-        if (Id == 20 || name == vishal) {
-                res.send('Vishal' )
+        if (Id == 20 ) {
+                res.send('Vishal' + Id )
 
-        } else if (Id == 21 || name == praveen) {
+        } else if (Id == 21 ) {
 
-                res.send('Praveen')
-        } else if (Id == 22 || name == aakash) {
+                res.send('Praveen'  + Id )
+        } else if (Id == 22 ) {
 
-                res.send('Aakash')
+                res.send('Aakash'  + Id )
         } else {
 
                 res.send('welcome back aliens')
         }
-}); */
+}); 
 
 
 

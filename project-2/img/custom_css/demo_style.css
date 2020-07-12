@@ -1,0 +1,22 @@
+@import url('cus_style.css');
+
+.cbox{
+    border:  5px solid;
+      
+    
+    }
+    p{
+    text-align: justify;
+    }
+    .links{
+
+        margin-right: 50px  ;
+        font-size: 21px;
+       
+    
+    }
+    .links:hover{
+        background-color: darkgray;
+        font-family: 'Fredoka One', cursive;
+    
+    }
